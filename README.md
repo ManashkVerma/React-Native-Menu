@@ -52,7 +52,7 @@ Users can explore categories and view detailed information about each menu item.
 
 ## 📂 Project Structure
 
-\`\`\`bash
+
 React-Native-Menu/
 │── components/
 │── screens/
@@ -60,7 +60,6 @@ React-Native-Menu/
 │── navigation/
 │── assets/
 │── App.js
-\`\`\`
 
 ---
 
@@ -68,33 +67,23 @@ React-Native-Menu/
 
 ### 1. Clone the repository
 
-\`\`\`bash
 git clone https://github.com/ManashkVerma/React-Native-Menu.git
-\`\`\`
 
 ### 2. Navigate to project
 
-\`\`\`bash
 cd React-Native-Menu
-\`\`\`
 
 ### 3. Install dependencies
 
-\`\`\`bash
 npm install
-\`\`\`
 
 ### 4. Run the app
 
 **Android**
-\`\`\`bash
 npx react-native run-android
-\`\`\`
 
 **iOS**
-\`\`\`bash
 npx react-native run-ios
-\`\`\`
 
 ---
 
