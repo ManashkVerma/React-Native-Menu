@@ -52,16 +52,16 @@ Users can explore categories and view detailed information about each menu item.
 
 ## 📂 Project Structure
 
-
+```
 React-Native-Menu/
-│── components/
-│── screens/
-│── data/
-│── navigation/
-│── assets/
-│── App.js
-
----
+├── components/      # Reusable UI components
+├── screens/         # App screens
+├── navigation/      # Navigation setup
+├── data/            # Static data
+├── assets/          # Images & screenshots
+├── App.js           # Entry point
+└── package.json     # Dependencies
+```
 
 ## ⚙️ Installation & Setup
 
