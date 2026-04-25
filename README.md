@@ -7,10 +7,11 @@
 
 ## 📸 App Preview
 
-![Home Screen](assets/Screenshot_1777095866.png)  
-![Category Screen](assets/Screenshot_1777095871.png)  
-![Meal Detail Screen](assets/Screenshot_1777095877.png)
-
+<p align="center">
+  <img src="assets/Screenshot_1777095866.png" width="30%"/>
+  <img src="assets/Screenshot_1777095871.png" width="30%"/>
+  <img src="assets/Screenshot_1777095877.png" width="30%"/>
+</p>
 ---
 
 ## ✨ Highlights
