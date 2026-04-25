@@ -1,18 +1,32 @@
 # 🍽️ React Native Menu App
 
-A sleek and responsive **menu-based mobile application** built using React Native. This project demonstrates how to design and navigate through structured menu items with a smooth user experience across Android and iOS.
+> 🚀 A modern, responsive food menu mobile application built using React Native.  
+> It demonstrates dynamic content rendering, smooth navigation, and a clean, scalable UI across Android and iOS.
+
+---
+
+## 📸 App Preview
+
+![Home Screen](assets/Screenshot_1777095866.png)  
+![Category Screen](assets/Screenshot_1777095871.png)  
+![Meal Detail Screen](assets/Screenshot_1777095877.png)
+
+---
+
+## ✨ Highlights
+
+- ⚡ Dynamic UI rendering (no hardcoded menu items)
+- 🧩 Reusable component-based architecture
+- 🧭 Seamless multi-screen navigation
+- 📱 Cross-platform support (Android & iOS)
+- ⚡ Optimized and responsive performance
 
 ---
 
 ## 🚀 Project Overview
 
-This app showcases a **dynamic food/menu browsing experience**, where users can explore different categories and view detailed information about items.
-
-It focuses on:
-
-- Clean UI 🧼
-- Smooth navigation 🔄
-- Component-based architecture 🧩
+The React Native Menu App provides a smooth and intuitive food browsing experience.  
+Users can explore categories and view detailed information about each menu item.
 
 ---
 
@@ -20,7 +34,7 @@ It focuses on:
 
 - 📋 Browse menu categories
 - 🍔 View detailed meal/item information
-- 🧭 Navigation between screens (Drawer/Stack)
+- 🧭 Navigation using Drawer and Stack
 - 🖼️ Image-based UI for better UX
 - ⚡ Fast and responsive performance
 
@@ -30,68 +44,65 @@ It focuses on:
 
 - ⚛️ React Native
 - 📦 JavaScript (ES6+)
-- 🧭 React Navigation _(for screen transitions)_ ([React Native][1])
+- 🧭 React Navigation
 - 🧱 Component-based architecture
 
 ---
 
 ## 📂 Project Structure
 
-```
+\`\`\`bash
 React-Native-Menu/
-│── components/        # Reusable UI components
-│── screens/           # App screens (Meal Detail, Categories, etc.)
-│── data/              # Dummy/static data
-│── navigation/        # Navigation configuration
-│── App.js             # Entry point
-```
+│── components/
+│── screens/
+│── data/
+│── navigation/
+│── assets/
+│── App.js
+\`\`\`
 
 ---
 
 ## ⚙️ Installation & Setup
 
-1. Clone the repository:
+### 1. Clone the repository
 
-```bash
+\`\`\`bash
 git clone https://github.com/ManashkVerma/React-Native-Menu.git
-```
+\`\`\`
 
-2. Navigate to the project:
+### 2. Navigate to project
 
-```bash
+\`\`\`bash
 cd React-Native-Menu
-```
+\`\`\`
 
-3. Install dependencies:
+### 3. Install dependencies
 
-```bash
+\`\`\`bash
 npm install
-```
+\`\`\`
 
-4. Run the app:
+### 4. Run the app
 
-```bash
+**Android**
+\`\`\`bash
 npx react-native run-android
-# or
+\`\`\`
+
+**iOS**
+\`\`\`bash
 npx react-native run-ios
-```
-
----
-
-## 📸 Screenshots (Add Yours 👇)
-
-- Home Screen
-- Category List
-- Meal Detail Screen
+\`\`\`
 
 ---
 
 ## 🧠 Key Learnings
 
-- Managing navigation flow in React Native
-- Structuring scalable components
-- Handling props and reusable UI
-- Building real-world mobile UI patterns
+- Navigation handling in React Native
+- Reusable component architecture
+- Dynamic rendering using data
+- UI/UX structuring for mobile apps
 
 ---
 
@@ -99,26 +110,26 @@ npx react-native run-ios
 
 - 🔍 Search functionality
 - ❤️ Favorites feature
-- 🌐 API integration (real food data)
+- 🌐 API integration
 - 🎨 Dark mode
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome!
-Feel free to fork this repo and submit a PR.
+1. Fork the repo
+2. Create a branch
+3. Commit changes
+4. Push and open PR
 
 ---
 
 ## 📬 Contact
 
-- GitHub: [https://github.com/ManashkVerma](https://github.com/ManashkVerma)
+GitHub: https://github.com/ManashkVerma
 
 ---
 
-## ⭐ Show Your Support
+## ⭐ Support
 
-If you like this project, give it a ⭐ on GitHub!
-
----
+Give it a ⭐ if you like the project!

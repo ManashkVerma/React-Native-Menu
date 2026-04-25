@@ -5,14 +5,28 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import CategoriesScreen from "./Screens/CategoriesScreen";
 import MealsOverviewScreen from "./Screens/MealsOverviewScreen";
 import MealDetailScreen from "./Screens/MealDetailScreen";
-import {createDrawerNavigator} from "@react-navigation/drawer"
-
+import FaviorateScreen from "./Screens/FaviorateScreen";
+import { createDrawerNavigator } from "@react-navigation/drawer";
 
 const Stack = createNativeStackNavigator();
 const Drawer = createDrawerNavigator();
 
-function DrawerNavigator(){
-  
+function DrawerNavigator() {
+  return (
+    <Drawer.Navigator
+      screenOptions={{
+        headerStyle: { backgroundColor: "#351401" },
+        headerTintColor: "white",
+        sceneContainerStyle: {
+          backgroundColor: "#9c5424",
+        },
+        drawerContentStyle: { backgroundColor: "#351401" },
+      }}
+    >
+      <Drawer.Screen name="Categories" component={CategoriesScreen} />
+      <Drawer.Screen name="Favorite" component={FaviorateScreen} />
+    </Drawer.Navigator>
+  );
 }
 
 // Only registered screen have access to navigation and route props and not components
@@ -21,7 +35,7 @@ export default function App() {
     <View style={styles.container}>
       <NavigationContainer>
         <Stack.Navigator
-          initialRouteName="MealCategories"
+          initialRouteName="Drawer"
           screenOptions={{
             headerStyle: { backgroundColor: "#351401" },
             headerTintColor: "white",
@@ -31,15 +45,16 @@ export default function App() {
           }}
         >
           <Stack.Screen
-            name="MealCategories"
-            component={CategoriesScreen}
+            name="Drawer"
+            component={DrawerNavigator}
             options={{
-              title: "Meals Categories",
-              headerStyle: { backgroundColor: "#351401" },
-              headerTintColor: "white",
-              contentStyle: {
-                backgroundColor: "#9c5424",
-              },
+              // title: "Meals Categories",
+              // headerStyle: { backgroundColor: "#351401" },
+              // headerTintColor: "white",
+              // contentStyle: {
+              //   backgroundColor: "#9c5424",
+              // },
+              headerShown: false,
             }}
           />
           <Stack.Screen name="MealOverview" component={MealsOverviewScreen} />
